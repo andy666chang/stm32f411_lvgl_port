@@ -76,7 +76,7 @@ void lv_port_disp_init(void)
     /* Example for 2) */
     static lv_disp_draw_buf_t draw_buf_dsc_1;
     static lv_color_t buf_1[LV_HOR_RES_MAX * 32];                          /*A buffer for 30 rows*/
-		static lv_color_t buf_2[LV_HOR_RES_MAX * 32];            /*An other screen sized buffer*/
+	static lv_color_t buf_2[LV_HOR_RES_MAX * 32];            /*An other screen sized buffer*/
     lv_disp_draw_buf_init(&draw_buf_dsc_1, buf_1, buf_2, LV_HOR_RES_MAX * 32);   /*Initialize the display buffer*/
 
     /* Example for 2) */
