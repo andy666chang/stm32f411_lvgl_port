@@ -252,39 +252,39 @@ void lvgl_first_demo_start(void)
 //    lv_label_set_long_mode(label2, LV_LABEL_LONG_SCROLL_CIRCULAR);     /*Circular scroll*/
 //    lv_obj_set_width(label2, 150);
 //    lv_label_set_text(label2, "It is a circularly scrolling text. ");
-//	
-//		lv_obj_set_y(label2, 0);
-	
-//		lv_obj_t * label3 = lv_label_create(lv_scr_act());
+//
+//      lv_obj_set_y(label2, 0);
+
+//      lv_obj_t * label3 = lv_label_create(lv_scr_act());
 //    lv_label_set_long_mode(label3, LV_LABEL_LONG_SCROLL_CIRCULAR);     /*Circular scroll*/
 //    lv_obj_set_width(label3, 150);
 //    lv_label_set_text(label3, "It is a circularly scrolling text. ");
-//	
-//		lv_obj_set_y(label3, 32);
+//
+//      lv_obj_set_y(label3, 32);
 
     lv_obj_t * obj = lv_obj_create(lv_scr_act());
     lv_obj_set_style_bg_color(obj, lv_palette_main(_LV_PALETTE_LAST), 0);
     lv_obj_set_style_radius(obj, LV_RADIUS_CIRCLE, 0);
-		lv_obj_set_size(obj, 60, 60);
+    lv_obj_set_size(obj, 20, 20);
 
-    lv_obj_align(obj, LV_ALIGN_LEFT_MID, -30, 0);	
+    lv_obj_align(obj, LV_ALIGN_LEFT_MID, -30, 0);
 
-   lv_anim_t a;
-   lv_anim_init(&a);
-   lv_anim_set_var(&a, obj);
-   lv_anim_set_values(&a, 60, 60);
-   lv_anim_set_time(&a, 500);
-   lv_anim_set_playback_delay(&a, 100);
-   lv_anim_set_playback_time(&a, 500);
-   lv_anim_set_repeat_delay(&a, 100);
-   lv_anim_set_repeat_count(&a, LV_ANIM_REPEAT_INFINITE);
-   lv_anim_set_path_cb(&a, lv_anim_path_ease_in_out);
+    lv_anim_t a;
+    lv_anim_init(&a);
+    lv_anim_set_var(&a, obj);
+    lv_anim_set_values(&a, 20, 60);
+    lv_anim_set_time(&a, 500);
+    lv_anim_set_playback_delay(&a, 100);
+    lv_anim_set_playback_time(&a, 500);
+    lv_anim_set_repeat_delay(&a, 100);
+    lv_anim_set_repeat_count(&a, LV_ANIM_REPEAT_INFINITE);
+    lv_anim_set_path_cb(&a, lv_anim_path_ease_in_out );
 
-   lv_anim_set_exec_cb(&a, anim_size_cb);
-   lv_anim_start(&a);
-   lv_anim_set_exec_cb(&a, anim_x_cb);
-   lv_anim_set_values(&a, -30, LV_HOR_RES-30);
-   lv_anim_start(&a);
+    lv_anim_set_exec_cb(&a, anim_size_cb);
+    lv_anim_start(&a);
+    lv_anim_set_exec_cb(&a, anim_x_cb);
+    lv_anim_set_values(&a, -10, LV_HOR_RES - 30);
+    lv_anim_start(&a);
 
 }
 
