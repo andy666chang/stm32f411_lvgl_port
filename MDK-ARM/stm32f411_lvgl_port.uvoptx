@@ -152,25 +152,9 @@
         <Bp>
           <Number>0</Number>
           <Type>0</Type>
-          <LineNumber>208</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134241484</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>..\Src\GUI\lvgl\examples\porting\lv_port_disp.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression>\\stm32f411_lvgl_port\../Src/GUI/lvgl/examples/porting/lv_port_disp.c\208</Expression>
-        </Bp>
-        <Bp>
-          <Number>1</Number>
-          <Type>0</Type>
           <LineNumber>108</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134286902</Address>
+          <Address>134361434</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
@@ -182,11 +166,11 @@
           <Expression>\\stm32f411_lvgl_port\../Src/main.c\108</Expression>
         </Bp>
         <Bp>
-          <Number>2</Number>
+          <Number>1</Number>
           <Type>0</Type>
           <LineNumber>98</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134286878</Address>
+          <Address>134361410</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
@@ -198,11 +182,11 @@
           <Expression>\\stm32f411_lvgl_port\../Src/main.c\98</Expression>
         </Bp>
         <Bp>
-          <Number>3</Number>
+          <Number>2</Number>
           <Type>0</Type>
           <LineNumber>99</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134286882</Address>
+          <Address>134361414</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
@@ -212,6 +196,22 @@
           <Filename>../Src/main.c</Filename>
           <ExecCommand></ExecCommand>
           <Expression>\\stm32f411_lvgl_port\../Src/main.c\99</Expression>
+        </Bp>
+        <Bp>
+          <Number>3</Number>
+          <Type>0</Type>
+          <LineNumber>190</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>0</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>0</BreakIfRCount>
+          <Filename>..\Src\lvgl\lv_port_disp.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression></Expression>
         </Bp>
       </Breakpoint>
       <MemoryWindow1>
@@ -276,7 +276,7 @@
 
   <Group>
     <GroupName>Application/MDK-ARM</GroupName>
-    <tvExp>1</tvExp>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -572,7 +572,7 @@
 
   <Group>
     <GroupName>Drivers/SSD1306</GroupName>
-    <tvExp>1</tvExp>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -611,8 +611,32 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\examples\porting\lv_port_disp.c</PathWithFileName>
+      <PathWithFileName>..\Src\lvgl\lv_port_disp.c</PathWithFileName>
       <FilenameWithoutPath>lv_port_disp.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>7</GroupNumber>
+      <FileNumber>25</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\Src\lvgl\lv_port_fs.c</PathWithFileName>
+      <FilenameWithoutPath>lv_port_fs.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>7</GroupNumber>
+      <FileNumber>26</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\Src\lvgl\lv_port_indev.c</PathWithFileName>
+      <FilenameWithoutPath>lv_port_indev.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -626,37 +650,13 @@
     <RteFlg>0</RteFlg>
     <File>
       <GroupNumber>8</GroupNumber>
-      <FileNumber>25</FileNumber>
-      <FileType>1</FileType>
-      <tvExp>0</tvExp>
-      <tvExpOptDlg>0</tvExpOptDlg>
-      <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_core\lv_disp.c</PathWithFileName>
-      <FilenameWithoutPath>lv_disp.c</FilenameWithoutPath>
-      <RteFlg>0</RteFlg>
-      <bShared>0</bShared>
-    </File>
-    <File>
-      <GroupNumber>8</GroupNumber>
-      <FileNumber>26</FileNumber>
-      <FileType>1</FileType>
-      <tvExp>0</tvExp>
-      <tvExpOptDlg>0</tvExpOptDlg>
-      <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_core\lv_group.c</PathWithFileName>
-      <FilenameWithoutPath>lv_group.c</FilenameWithoutPath>
-      <RteFlg>0</RteFlg>
-      <bShared>0</bShared>
-    </File>
-    <File>
-      <GroupNumber>8</GroupNumber>
       <FileNumber>27</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_core\lv_indev.c</PathWithFileName>
-      <FilenameWithoutPath>lv_indev.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\core\lv_disp.c</PathWithFileName>
+      <FilenameWithoutPath>lv_disp.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -667,8 +667,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_core\lv_obj.c</PathWithFileName>
-      <FilenameWithoutPath>lv_obj.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\core\lv_event.c</PathWithFileName>
+      <FilenameWithoutPath>lv_event.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -679,8 +679,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_core\lv_refr.c</PathWithFileName>
-      <FilenameWithoutPath>lv_refr.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\core\lv_group.c</PathWithFileName>
+      <FilenameWithoutPath>lv_group.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -691,8 +691,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_core\lv_style.c</PathWithFileName>
-      <FilenameWithoutPath>lv_style.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\core\lv_indev.c</PathWithFileName>
+      <FilenameWithoutPath>lv_indev.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -703,8 +703,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_draw\lv_draw_arc.c</PathWithFileName>
-      <FilenameWithoutPath>lv_draw_arc.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\core\lv_indev_scroll.c</PathWithFileName>
+      <FilenameWithoutPath>lv_indev_scroll.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -715,8 +715,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_draw\lv_draw_blend.c</PathWithFileName>
-      <FilenameWithoutPath>lv_draw_blend.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\core\lv_obj.c</PathWithFileName>
+      <FilenameWithoutPath>lv_obj.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -727,8 +727,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_draw\lv_draw_img.c</PathWithFileName>
-      <FilenameWithoutPath>lv_draw_img.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\core\lv_obj_class.c</PathWithFileName>
+      <FilenameWithoutPath>lv_obj_class.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -739,8 +739,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_draw\lv_draw_label.c</PathWithFileName>
-      <FilenameWithoutPath>lv_draw_label.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\core\lv_obj_draw.c</PathWithFileName>
+      <FilenameWithoutPath>lv_obj_draw.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -751,8 +751,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_draw\lv_draw_line.c</PathWithFileName>
-      <FilenameWithoutPath>lv_draw_line.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\core\lv_obj_pos.c</PathWithFileName>
+      <FilenameWithoutPath>lv_obj_pos.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -763,8 +763,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_draw\lv_draw_mask.c</PathWithFileName>
-      <FilenameWithoutPath>lv_draw_mask.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\core\lv_obj_scroll.c</PathWithFileName>
+      <FilenameWithoutPath>lv_obj_scroll.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -775,8 +775,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_draw\lv_draw_rect.c</PathWithFileName>
-      <FilenameWithoutPath>lv_draw_rect.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\core\lv_obj_style.c</PathWithFileName>
+      <FilenameWithoutPath>lv_obj_style.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -787,8 +787,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_font\lv_font_fmt_txt.c</PathWithFileName>
-      <FilenameWithoutPath>lv_font_fmt_txt.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\core\lv_obj_style_gen.c</PathWithFileName>
+      <FilenameWithoutPath>lv_obj_style_gen.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -799,8 +799,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_draw\lv_draw_triangle.c</PathWithFileName>
-      <FilenameWithoutPath>lv_draw_triangle.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\core\lv_obj_tree.c</PathWithFileName>
+      <FilenameWithoutPath>lv_obj_tree.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -811,8 +811,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_draw\lv_img_buf.c</PathWithFileName>
-      <FilenameWithoutPath>lv_img_buf.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\core\lv_refr.c</PathWithFileName>
+      <FilenameWithoutPath>lv_refr.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -823,8 +823,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_draw\lv_img_cache.c</PathWithFileName>
-      <FilenameWithoutPath>lv_img_cache.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\core\lv_theme.c</PathWithFileName>
+      <FilenameWithoutPath>lv_theme.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -835,8 +835,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_draw\lv_img_decoder.c</PathWithFileName>
-      <FilenameWithoutPath>lv_img_decoder.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\draw\lv_draw_arc.c</PathWithFileName>
+      <FilenameWithoutPath>lv_draw_arc.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -847,8 +847,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_font\lv_font.c</PathWithFileName>
-      <FilenameWithoutPath>lv_font.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\draw\lv_draw_blend.c</PathWithFileName>
+      <FilenameWithoutPath>lv_draw_blend.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -859,8 +859,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_font\lv_font_dejavu_16_persian_hebrew.c</PathWithFileName>
-      <FilenameWithoutPath>lv_font_dejavu_16_persian_hebrew.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\draw\lv_draw_img.c</PathWithFileName>
+      <FilenameWithoutPath>lv_draw_img.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -871,8 +871,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_font\lv_font_loader.c</PathWithFileName>
-      <FilenameWithoutPath>lv_font_loader.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\draw\lv_draw_label.c</PathWithFileName>
+      <FilenameWithoutPath>lv_draw_label.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -883,8 +883,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_font\lv_font_montserrat_8.c</PathWithFileName>
-      <FilenameWithoutPath>lv_font_montserrat_8.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\draw\lv_draw_line.c</PathWithFileName>
+      <FilenameWithoutPath>lv_draw_line.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -895,8 +895,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_font\lv_font_montserrat_10.c</PathWithFileName>
-      <FilenameWithoutPath>lv_font_montserrat_10.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\draw\lv_draw_mask.c</PathWithFileName>
+      <FilenameWithoutPath>lv_draw_mask.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -907,8 +907,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_font\lv_font_montserrat_12.c</PathWithFileName>
-      <FilenameWithoutPath>lv_font_montserrat_12.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\draw\lv_draw_rect.c</PathWithFileName>
+      <FilenameWithoutPath>lv_draw_rect.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -919,8 +919,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_font\lv_font_montserrat_12_subpx.c</PathWithFileName>
-      <FilenameWithoutPath>lv_font_montserrat_12_subpx.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\draw\lv_draw_triangle.c</PathWithFileName>
+      <FilenameWithoutPath>lv_draw_triangle.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -931,8 +931,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_font\lv_font_montserrat_14.c</PathWithFileName>
-      <FilenameWithoutPath>lv_font_montserrat_14.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\draw\lv_img_buf.c</PathWithFileName>
+      <FilenameWithoutPath>lv_img_buf.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -943,8 +943,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_font\lv_font_montserrat_16.c</PathWithFileName>
-      <FilenameWithoutPath>lv_font_montserrat_16.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\draw\lv_img_cache.c</PathWithFileName>
+      <FilenameWithoutPath>lv_img_cache.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -955,8 +955,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_font\lv_font_montserrat_18.c</PathWithFileName>
-      <FilenameWithoutPath>lv_font_montserrat_18.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\draw\lv_img_decoder.c</PathWithFileName>
+      <FilenameWithoutPath>lv_img_decoder.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -967,8 +967,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_font\lv_font_montserrat_20.c</PathWithFileName>
-      <FilenameWithoutPath>lv_font_montserrat_20.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\font\lv_font.c</PathWithFileName>
+      <FilenameWithoutPath>lv_font.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -979,8 +979,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_font\lv_font_montserrat_22.c</PathWithFileName>
-      <FilenameWithoutPath>lv_font_montserrat_22.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\font\lv_font_dejavu_16_persian_hebrew.c</PathWithFileName>
+      <FilenameWithoutPath>lv_font_dejavu_16_persian_hebrew.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -991,8 +991,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_font\lv_font_montserrat_24.c</PathWithFileName>
-      <FilenameWithoutPath>lv_font_montserrat_24.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\font\lv_font_fmt_txt.c</PathWithFileName>
+      <FilenameWithoutPath>lv_font_fmt_txt.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1003,8 +1003,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_font\lv_font_montserrat_26.c</PathWithFileName>
-      <FilenameWithoutPath>lv_font_montserrat_26.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\font\lv_font_loader.c</PathWithFileName>
+      <FilenameWithoutPath>lv_font_loader.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1015,8 +1015,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_font\lv_font_montserrat_28.c</PathWithFileName>
-      <FilenameWithoutPath>lv_font_montserrat_28.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\font\lv_font_montserrat_8.c</PathWithFileName>
+      <FilenameWithoutPath>lv_font_montserrat_8.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1027,8 +1027,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_font\lv_font_montserrat_28_compressed.c</PathWithFileName>
-      <FilenameWithoutPath>lv_font_montserrat_28_compressed.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\font\lv_font_montserrat_10.c</PathWithFileName>
+      <FilenameWithoutPath>lv_font_montserrat_10.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1039,8 +1039,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_font\lv_font_montserrat_30.c</PathWithFileName>
-      <FilenameWithoutPath>lv_font_montserrat_30.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\font\lv_font_montserrat_12.c</PathWithFileName>
+      <FilenameWithoutPath>lv_font_montserrat_12.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1051,8 +1051,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_font\lv_font_montserrat_32.c</PathWithFileName>
-      <FilenameWithoutPath>lv_font_montserrat_32.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\font\lv_font_montserrat_12_subpx.c</PathWithFileName>
+      <FilenameWithoutPath>lv_font_montserrat_12_subpx.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1063,8 +1063,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_font\lv_font_montserrat_34.c</PathWithFileName>
-      <FilenameWithoutPath>lv_font_montserrat_34.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\font\lv_font_montserrat_14.c</PathWithFileName>
+      <FilenameWithoutPath>lv_font_montserrat_14.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1075,8 +1075,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_font\lv_font_montserrat_36.c</PathWithFileName>
-      <FilenameWithoutPath>lv_font_montserrat_36.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\font\lv_font_montserrat_16.c</PathWithFileName>
+      <FilenameWithoutPath>lv_font_montserrat_16.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1087,8 +1087,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_font\lv_font_montserrat_38.c</PathWithFileName>
-      <FilenameWithoutPath>lv_font_montserrat_38.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\font\lv_font_montserrat_18.c</PathWithFileName>
+      <FilenameWithoutPath>lv_font_montserrat_18.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1099,8 +1099,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_font\lv_font_montserrat_40.c</PathWithFileName>
-      <FilenameWithoutPath>lv_font_montserrat_40.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\font\lv_font_montserrat_20.c</PathWithFileName>
+      <FilenameWithoutPath>lv_font_montserrat_20.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1111,8 +1111,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_font\lv_font_montserrat_42.c</PathWithFileName>
-      <FilenameWithoutPath>lv_font_montserrat_42.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\font\lv_font_montserrat_22.c</PathWithFileName>
+      <FilenameWithoutPath>lv_font_montserrat_22.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1123,8 +1123,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_font\lv_font_montserrat_44.c</PathWithFileName>
-      <FilenameWithoutPath>lv_font_montserrat_44.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\font\lv_font_montserrat_24.c</PathWithFileName>
+      <FilenameWithoutPath>lv_font_montserrat_24.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1135,8 +1135,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_font\lv_font_montserrat_46.c</PathWithFileName>
-      <FilenameWithoutPath>lv_font_montserrat_46.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\font\lv_font_montserrat_26.c</PathWithFileName>
+      <FilenameWithoutPath>lv_font_montserrat_26.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1147,8 +1147,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_font\lv_font_montserrat_48.c</PathWithFileName>
-      <FilenameWithoutPath>lv_font_montserrat_48.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\font\lv_font_montserrat_28.c</PathWithFileName>
+      <FilenameWithoutPath>lv_font_montserrat_28.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1159,8 +1159,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_font\lv_font_simsun_16_cjk.c</PathWithFileName>
-      <FilenameWithoutPath>lv_font_simsun_16_cjk.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\font\lv_font_montserrat_28_compressed.c</PathWithFileName>
+      <FilenameWithoutPath>lv_font_montserrat_28_compressed.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1171,8 +1171,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_font\lv_font_unscii_8.c</PathWithFileName>
-      <FilenameWithoutPath>lv_font_unscii_8.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\font\lv_font_montserrat_30.c</PathWithFileName>
+      <FilenameWithoutPath>lv_font_montserrat_30.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1183,8 +1183,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_font\lv_font_unscii_16.c</PathWithFileName>
-      <FilenameWithoutPath>lv_font_unscii_16.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\font\lv_font_montserrat_32.c</PathWithFileName>
+      <FilenameWithoutPath>lv_font_montserrat_32.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1195,8 +1195,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_hal\lv_hal_disp.c</PathWithFileName>
-      <FilenameWithoutPath>lv_hal_disp.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\font\lv_font_montserrat_34.c</PathWithFileName>
+      <FilenameWithoutPath>lv_font_montserrat_34.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1207,8 +1207,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_hal\lv_hal_indev.c</PathWithFileName>
-      <FilenameWithoutPath>lv_hal_indev.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\font\lv_font_montserrat_36.c</PathWithFileName>
+      <FilenameWithoutPath>lv_font_montserrat_36.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1219,8 +1219,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_hal\lv_hal_tick.c</PathWithFileName>
-      <FilenameWithoutPath>lv_hal_tick.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\font\lv_font_montserrat_38.c</PathWithFileName>
+      <FilenameWithoutPath>lv_font_montserrat_38.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1231,8 +1231,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_misc\lv_anim.c</PathWithFileName>
-      <FilenameWithoutPath>lv_anim.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\font\lv_font_montserrat_40.c</PathWithFileName>
+      <FilenameWithoutPath>lv_font_montserrat_40.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1243,8 +1243,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_misc\lv_area.c</PathWithFileName>
-      <FilenameWithoutPath>lv_area.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\font\lv_font_montserrat_42.c</PathWithFileName>
+      <FilenameWithoutPath>lv_font_montserrat_42.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1255,8 +1255,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_misc\lv_async.c</PathWithFileName>
-      <FilenameWithoutPath>lv_async.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\font\lv_font_montserrat_44.c</PathWithFileName>
+      <FilenameWithoutPath>lv_font_montserrat_44.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1267,8 +1267,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_misc\lv_bidi.c</PathWithFileName>
-      <FilenameWithoutPath>lv_bidi.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\font\lv_font_montserrat_46.c</PathWithFileName>
+      <FilenameWithoutPath>lv_font_montserrat_46.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1279,8 +1279,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_misc\lv_color.c</PathWithFileName>
-      <FilenameWithoutPath>lv_color.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\font\lv_font_montserrat_48.c</PathWithFileName>
+      <FilenameWithoutPath>lv_font_montserrat_48.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1291,8 +1291,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_misc\lv_debug.c</PathWithFileName>
-      <FilenameWithoutPath>lv_debug.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\font\lv_font_simsun_16_cjk.c</PathWithFileName>
+      <FilenameWithoutPath>lv_font_simsun_16_cjk.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1303,8 +1303,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_misc\lv_fs.c</PathWithFileName>
-      <FilenameWithoutPath>lv_fs.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\font\lv_font_unscii_8.c</PathWithFileName>
+      <FilenameWithoutPath>lv_font_unscii_8.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1315,8 +1315,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_misc\lv_gc.c</PathWithFileName>
-      <FilenameWithoutPath>lv_gc.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\font\lv_font_unscii_16.c</PathWithFileName>
+      <FilenameWithoutPath>lv_font_unscii_16.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1327,8 +1327,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_misc\lv_ll.c</PathWithFileName>
-      <FilenameWithoutPath>lv_ll.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\hal\lv_hal_disp.c</PathWithFileName>
+      <FilenameWithoutPath>lv_hal_disp.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1339,8 +1339,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_misc\lv_log.c</PathWithFileName>
-      <FilenameWithoutPath>lv_log.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\hal\lv_hal_indev.c</PathWithFileName>
+      <FilenameWithoutPath>lv_hal_indev.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1351,8 +1351,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_misc\lv_math.c</PathWithFileName>
-      <FilenameWithoutPath>lv_math.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\hal\lv_hal_tick.c</PathWithFileName>
+      <FilenameWithoutPath>lv_hal_tick.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1363,8 +1363,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_misc\lv_mem.c</PathWithFileName>
-      <FilenameWithoutPath>lv_mem.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\misc\lv_anim.c</PathWithFileName>
+      <FilenameWithoutPath>lv_anim.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1375,8 +1375,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_misc\lv_printf.c</PathWithFileName>
-      <FilenameWithoutPath>lv_printf.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\misc\lv_area.c</PathWithFileName>
+      <FilenameWithoutPath>lv_area.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1387,8 +1387,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_misc\lv_task.c</PathWithFileName>
-      <FilenameWithoutPath>lv_task.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\misc\lv_async.c</PathWithFileName>
+      <FilenameWithoutPath>lv_async.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1399,8 +1399,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_misc\lv_templ.c</PathWithFileName>
-      <FilenameWithoutPath>lv_templ.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\misc\lv_bidi.c</PathWithFileName>
+      <FilenameWithoutPath>lv_bidi.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1411,8 +1411,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_misc\lv_txt.c</PathWithFileName>
-      <FilenameWithoutPath>lv_txt.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\misc\lv_color.c</PathWithFileName>
+      <FilenameWithoutPath>lv_color.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1423,8 +1423,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_misc\lv_txt_ap.c</PathWithFileName>
-      <FilenameWithoutPath>lv_txt_ap.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\misc\lv_fs.c</PathWithFileName>
+      <FilenameWithoutPath>lv_fs.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1435,8 +1435,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_misc\lv_utils.c</PathWithFileName>
-      <FilenameWithoutPath>lv_utils.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\misc\lv_gc.c</PathWithFileName>
+      <FilenameWithoutPath>lv_gc.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1447,8 +1447,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_themes\lv_theme.c</PathWithFileName>
-      <FilenameWithoutPath>lv_theme.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\misc\lv_ll.c</PathWithFileName>
+      <FilenameWithoutPath>lv_ll.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1459,8 +1459,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_themes\lv_theme_empty.c</PathWithFileName>
-      <FilenameWithoutPath>lv_theme_empty.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\misc\lv_log.c</PathWithFileName>
+      <FilenameWithoutPath>lv_log.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1471,8 +1471,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_themes\lv_theme_material.c</PathWithFileName>
-      <FilenameWithoutPath>lv_theme_material.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\misc\lv_math.c</PathWithFileName>
+      <FilenameWithoutPath>lv_math.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1483,8 +1483,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_themes\lv_theme_mono.c</PathWithFileName>
-      <FilenameWithoutPath>lv_theme_mono.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\misc\lv_mem.c</PathWithFileName>
+      <FilenameWithoutPath>lv_mem.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1495,8 +1495,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_themes\lv_theme_template.c</PathWithFileName>
-      <FilenameWithoutPath>lv_theme_template.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\misc\lv_printf.c</PathWithFileName>
+      <FilenameWithoutPath>lv_printf.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1507,8 +1507,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_widgets\lv_arc.c</PathWithFileName>
-      <FilenameWithoutPath>lv_arc.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\misc\lv_style.c</PathWithFileName>
+      <FilenameWithoutPath>lv_style.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1519,8 +1519,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_widgets\lv_bar.c</PathWithFileName>
-      <FilenameWithoutPath>lv_bar.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\misc\lv_style_gen.c</PathWithFileName>
+      <FilenameWithoutPath>lv_style_gen.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1531,8 +1531,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_widgets\lv_btn.c</PathWithFileName>
-      <FilenameWithoutPath>lv_btn.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\misc\lv_templ.c</PathWithFileName>
+      <FilenameWithoutPath>lv_templ.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1543,8 +1543,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_widgets\lv_btnmatrix.c</PathWithFileName>
-      <FilenameWithoutPath>lv_btnmatrix.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\misc\lv_timer.c</PathWithFileName>
+      <FilenameWithoutPath>lv_timer.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1555,8 +1555,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_widgets\lv_calendar.c</PathWithFileName>
-      <FilenameWithoutPath>lv_calendar.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\misc\lv_tlsf.c</PathWithFileName>
+      <FilenameWithoutPath>lv_tlsf.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1567,8 +1567,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_widgets\lv_canvas.c</PathWithFileName>
-      <FilenameWithoutPath>lv_canvas.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\misc\lv_txt.c</PathWithFileName>
+      <FilenameWithoutPath>lv_txt.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1579,8 +1579,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_widgets\lv_chart.c</PathWithFileName>
-      <FilenameWithoutPath>lv_chart.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\misc\lv_txt_ap.c</PathWithFileName>
+      <FilenameWithoutPath>lv_txt_ap.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1591,8 +1591,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_widgets\lv_checkbox.c</PathWithFileName>
-      <FilenameWithoutPath>lv_checkbox.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\misc\lv_utils.c</PathWithFileName>
+      <FilenameWithoutPath>lv_utils.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1603,8 +1603,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_widgets\lv_cont.c</PathWithFileName>
-      <FilenameWithoutPath>lv_cont.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\widgets\lv_arc.c</PathWithFileName>
+      <FilenameWithoutPath>lv_arc.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1615,8 +1615,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_widgets\lv_cpicker.c</PathWithFileName>
-      <FilenameWithoutPath>lv_cpicker.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\widgets\lv_bar.c</PathWithFileName>
+      <FilenameWithoutPath>lv_bar.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1627,8 +1627,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_widgets\lv_dropdown.c</PathWithFileName>
-      <FilenameWithoutPath>lv_dropdown.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\widgets\lv_btn.c</PathWithFileName>
+      <FilenameWithoutPath>lv_btn.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1639,8 +1639,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_widgets\lv_gauge.c</PathWithFileName>
-      <FilenameWithoutPath>lv_gauge.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\widgets\lv_btnmatrix.c</PathWithFileName>
+      <FilenameWithoutPath>lv_btnmatrix.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1651,8 +1651,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_widgets\lv_img.c</PathWithFileName>
-      <FilenameWithoutPath>lv_img.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\widgets\lv_canvas.c</PathWithFileName>
+      <FilenameWithoutPath>lv_canvas.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1663,8 +1663,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_widgets\lv_imgbtn.c</PathWithFileName>
-      <FilenameWithoutPath>lv_imgbtn.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\widgets\lv_checkbox.c</PathWithFileName>
+      <FilenameWithoutPath>lv_checkbox.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1675,8 +1675,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_widgets\lv_keyboard.c</PathWithFileName>
-      <FilenameWithoutPath>lv_keyboard.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\widgets\lv_dropdown.c</PathWithFileName>
+      <FilenameWithoutPath>lv_dropdown.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1687,8 +1687,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_widgets\lv_label.c</PathWithFileName>
-      <FilenameWithoutPath>lv_label.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\widgets\lv_img.c</PathWithFileName>
+      <FilenameWithoutPath>lv_img.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1699,8 +1699,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_widgets\lv_led.c</PathWithFileName>
-      <FilenameWithoutPath>lv_led.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\widgets\lv_label.c</PathWithFileName>
+      <FilenameWithoutPath>lv_label.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1711,7 +1711,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_widgets\lv_line.c</PathWithFileName>
+      <PathWithFileName>..\middleware\lvgl\src\widgets\lv_line.c</PathWithFileName>
       <FilenameWithoutPath>lv_line.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1723,8 +1723,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_widgets\lv_linemeter.c</PathWithFileName>
-      <FilenameWithoutPath>lv_linemeter.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\widgets\lv_objx_templ.c</PathWithFileName>
+      <FilenameWithoutPath>lv_objx_templ.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1735,8 +1735,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_widgets\lv_list.c</PathWithFileName>
-      <FilenameWithoutPath>lv_list.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\widgets\lv_roller.c</PathWithFileName>
+      <FilenameWithoutPath>lv_roller.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1747,8 +1747,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_widgets\lv_msgbox.c</PathWithFileName>
-      <FilenameWithoutPath>lv_msgbox.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\widgets\lv_slider.c</PathWithFileName>
+      <FilenameWithoutPath>lv_slider.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1759,8 +1759,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_widgets\lv_objmask.c</PathWithFileName>
-      <FilenameWithoutPath>lv_objmask.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\widgets\lv_switch.c</PathWithFileName>
+      <FilenameWithoutPath>lv_switch.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1771,8 +1771,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_widgets\lv_objx_templ.c</PathWithFileName>
-      <FilenameWithoutPath>lv_objx_templ.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\widgets\lv_table.c</PathWithFileName>
+      <FilenameWithoutPath>lv_table.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1783,8 +1783,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_widgets\lv_page.c</PathWithFileName>
-      <FilenameWithoutPath>lv_page.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\widgets\lv_textarea.c</PathWithFileName>
+      <FilenameWithoutPath>lv_textarea.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1795,8 +1795,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_widgets\lv_roller.c</PathWithFileName>
-      <FilenameWithoutPath>lv_roller.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\extra\lv_extra.c</PathWithFileName>
+      <FilenameWithoutPath>lv_extra.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1807,8 +1807,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_widgets\lv_slider.c</PathWithFileName>
-      <FilenameWithoutPath>lv_slider.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\extra\layouts\flex\lv_flex.c</PathWithFileName>
+      <FilenameWithoutPath>lv_flex.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1819,8 +1819,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_widgets\lv_spinbox.c</PathWithFileName>
-      <FilenameWithoutPath>lv_spinbox.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\extra\layouts\grid\lv_grid.c</PathWithFileName>
+      <FilenameWithoutPath>lv_grid.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1831,8 +1831,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_widgets\lv_spinner.c</PathWithFileName>
-      <FilenameWithoutPath>lv_spinner.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\extra\themes\basic\lv_theme_basic.c</PathWithFileName>
+      <FilenameWithoutPath>lv_theme_basic.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1843,8 +1843,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_widgets\lv_switch.c</PathWithFileName>
-      <FilenameWithoutPath>lv_switch.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\extra\themes\default\lv_theme_default.c</PathWithFileName>
+      <FilenameWithoutPath>lv_theme_default.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1855,8 +1855,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_widgets\lv_table.c</PathWithFileName>
-      <FilenameWithoutPath>lv_table.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\extra\themes\mono\lv_theme_mono.c</PathWithFileName>
+      <FilenameWithoutPath>lv_theme_mono.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1867,8 +1867,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_widgets\lv_tabview.c</PathWithFileName>
-      <FilenameWithoutPath>lv_tabview.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\extra\widgets\animimg\lv_animimg.c</PathWithFileName>
+      <FilenameWithoutPath>lv_animimg.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1879,8 +1879,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_widgets\lv_textarea.c</PathWithFileName>
-      <FilenameWithoutPath>lv_textarea.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\extra\widgets\calendar\lv_calendar.c</PathWithFileName>
+      <FilenameWithoutPath>lv_calendar.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1891,8 +1891,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_widgets\lv_tileview.c</PathWithFileName>
-      <FilenameWithoutPath>lv_tileview.c</FilenameWithoutPath>
+      <PathWithFileName>..\middleware\lvgl\src\extra\widgets\calendar\lv_calendar_header_arrow.c</PathWithFileName>
+      <FilenameWithoutPath>lv_calendar_header_arrow.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1903,11 +1903,187 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\GUI\lvgl\src\lv_widgets\lv_win.c</PathWithFileName>
+      <PathWithFileName>..\middleware\lvgl\src\extra\widgets\calendar\lv_calendar_header_dropdown.c</PathWithFileName>
+      <FilenameWithoutPath>lv_calendar_header_dropdown.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>8</GroupNumber>
+      <FileNumber>132</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\middleware\lvgl\src\extra\widgets\chart\lv_chart.c</PathWithFileName>
+      <FilenameWithoutPath>lv_chart.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>8</GroupNumber>
+      <FileNumber>133</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\middleware\lvgl\src\extra\widgets\colorwheel\lv_colorwheel.c</PathWithFileName>
+      <FilenameWithoutPath>lv_colorwheel.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>8</GroupNumber>
+      <FileNumber>134</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\middleware\lvgl\src\extra\widgets\imgbtn\lv_imgbtn.c</PathWithFileName>
+      <FilenameWithoutPath>lv_imgbtn.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>8</GroupNumber>
+      <FileNumber>135</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\middleware\lvgl\src\extra\widgets\keyboard\lv_keyboard.c</PathWithFileName>
+      <FilenameWithoutPath>lv_keyboard.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>8</GroupNumber>
+      <FileNumber>136</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\middleware\lvgl\src\extra\widgets\led\lv_led.c</PathWithFileName>
+      <FilenameWithoutPath>lv_led.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>8</GroupNumber>
+      <FileNumber>137</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\middleware\lvgl\src\extra\widgets\list\lv_list.c</PathWithFileName>
+      <FilenameWithoutPath>lv_list.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>8</GroupNumber>
+      <FileNumber>138</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\middleware\lvgl\src\extra\widgets\meter\lv_meter.c</PathWithFileName>
+      <FilenameWithoutPath>lv_meter.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>8</GroupNumber>
+      <FileNumber>139</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\middleware\lvgl\src\extra\widgets\msgbox\lv_msgbox.c</PathWithFileName>
+      <FilenameWithoutPath>lv_msgbox.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>8</GroupNumber>
+      <FileNumber>140</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\middleware\lvgl\src\extra\widgets\span\lv_span.c</PathWithFileName>
+      <FilenameWithoutPath>lv_span.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>8</GroupNumber>
+      <FileNumber>141</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\middleware\lvgl\src\extra\widgets\spinbox\lv_spinbox.c</PathWithFileName>
+      <FilenameWithoutPath>lv_spinbox.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>8</GroupNumber>
+      <FileNumber>142</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\middleware\lvgl\src\extra\widgets\spinner\lv_spinner.c</PathWithFileName>
+      <FilenameWithoutPath>lv_spinner.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>8</GroupNumber>
+      <FileNumber>143</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\middleware\lvgl\src\extra\widgets\tabview\lv_tabview.c</PathWithFileName>
+      <FilenameWithoutPath>lv_tabview.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>8</GroupNumber>
+      <FileNumber>144</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\middleware\lvgl\src\extra\widgets\tileview\lv_tileview.c</PathWithFileName>
+      <FilenameWithoutPath>lv_tileview.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>8</GroupNumber>
+      <FileNumber>145</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\middleware\lvgl\src\extra\widgets\win\lv_win.c</PathWithFileName>
       <FilenameWithoutPath>lv_win.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
+  </Group>
+
+  <Group>
+    <GroupName>lvgl_example</GroupName>
+    <tvExp>1</tvExp>
+    <tvExpOptDlg>0</tvExpOptDlg>
+    <cbSel>0</cbSel>
+    <RteFlg>0</RteFlg>
   </Group>
 
   <Group>
